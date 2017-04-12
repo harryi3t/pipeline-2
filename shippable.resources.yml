@@ -19,7 +19,7 @@ resources:
     pointer:
       sourceName: https://raw.githubusercontent.com/harryi3t/sample/master/README.md
     seed:
-      versionName: initial
+      versionName: 0.0.1
 
   - name: pipe-2-repo-3
     type: params
