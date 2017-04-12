@@ -1,0 +1,17 @@
+# Language setting
+language: python
+
+# Version number
+python:
+  - 2.7
+
+build:
+  ci:
+    - python --version
+
+integrations:
+  notifications:
+    - integrationName: "triggerResource"
+      type: webhook
+      payload:
+        - versionName=$BRANCH.$BUILD_NUMBER
