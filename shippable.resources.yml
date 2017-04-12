@@ -22,12 +22,12 @@ resources:
       versionName: 0.0.1
 
   - name: pipe-2-repo-3
-    type: params
+    type: file
     flags:
       - pipe-2
-      - repo-3
+      - repo-2
       - repo
-    version:
-      params:
-        key1: "value1"
-        key2: "value2"
+    pointer:
+      sourceName: https://raw.githubusercontent.com/harryi3t/sample/master/README.md
+    seed:
+      versionName: 1.0.1
