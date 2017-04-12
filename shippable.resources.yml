@@ -21,11 +21,11 @@ resources:
     seed:
       versionName: 0.0.1
 
-  - name: pipe-2-repo-3
+  - name: pipe-2-repo-4
     type: params
     flags:
       - pipe-2
-      - repo-3
+      - repo-4
       - repo
     version:
       params:
