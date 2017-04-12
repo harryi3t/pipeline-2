@@ -21,6 +21,16 @@ resources:
     seed:
       versionName: 0.0.1
 
+  - name: pipe-2-repo-3
+    type: params
+    flags:
+      - pipe-2
+      - repo-3
+      - repo
+    version:
+      params:
+        key1: "repo-3-value-1"
+        key2: value2
 
   - name: pipe-2-repo-4
     type: params
